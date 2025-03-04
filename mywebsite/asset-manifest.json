@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/static/css/main.072a777a.css",
+    "main.js": "/static/js/main.cc362a1c.js",
+    "static/js/488.e8a1df11.chunk.js": "/static/js/488.e8a1df11.chunk.js",
+    "static/media/FZSSJW.TTF": "/static/media/FZSSJW.5e1eed3263a65b096c31.TTF",
+    "static/media/ComicNeue-Regular.ttf": "/static/media/ComicNeue-Regular.f6e8f457de11c548d697.ttf",
+    "static/media/ComicNeue-Bold.ttf": "/static/media/ComicNeue-Bold.a068c58b0b82fcd0ffe6.ttf",
+    "index.html": "/index.html",
+    "static/media/MFDK.CSS": "/static/media/MFDK.31d6cfe0d16ae931b73c.CSS",
+    "main.072a777a.css.map": "/static/css/main.072a777a.css.map",
+    "main.cc362a1c.js.map": "/static/js/main.cc362a1c.js.map",
+    "488.e8a1df11.chunk.js.map": "/static/js/488.e8a1df11.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.072a777a.css",
+    "static/js/main.cc362a1c.js"
+  ]
+}

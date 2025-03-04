@@ -1,0 +1,22 @@
+.imagetitle{
+    font-size: smaller;
+    color: grey;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.faxpic{
+    width: 50%;
+    height:calc(50% * 1.2)
+}
+@media (max-width:368px) {
+    .faxpic{
+        width: 80%;
+    }
+}
+@media (max-width:600px) {
+    .faxpic{
+        width:80%;
+        height:calc(80% * 1.2)
+    }
+}

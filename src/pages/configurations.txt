@@ -1,0 +1,36 @@
+Saving debug log to /var/log/letsencrypt/letsencrypt.log
+Requesting a certificate for sadatsunemyspace.duckdns.org
+
+Successfully received certificate.
+Certificate is saved at: /etc/letsencrypt/live/sadatsunemyspace.duckdns.org/fullchain.pem
+Key is saved at:         /etc/letsencrypt/live/sadatsunemyspace.duckdns.org/privkey.pem
+Your key file has been saved at:
+    /etc/letsencrypt/live/api.sadatsunemyspace.duckdns.org/fullchain.pem
+   /etc/letsencrypt/live/api.sadatsunemyspace.duckdns.org/privkey.pem
+This certificate expires on 2025-04-17.
+These files will be updated when the certificate renews.
+Certbot has set up a scheduled task to automatically renew this certificate in the background.
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+If you like Certbot, please consider supporting our work by:
+ * Donating to ISRG / Let's Encrypt:   https://letsencrypt.org/donate
+ * Donating to EFF:                    https://eff.org/donate-le
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+server {
+    listen 443 ssl;
+    server_name yourdomain.com;
+
+    ssl_certificate /path/to/your_certificate.pem;
+    ssl_certificate_key /path/to/your_private_key.pem;
+
+    # 证书链文件，如果有的话
+    ssl_trusted_certificate /path/to/your_certificate_chain.pem;
+
+    location / {
+        proxy_pass http://localhost:;
+        proxy_set_header Host $host;
+        proxy_set_header X-Real-IP $remote_addr;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+    }
+}

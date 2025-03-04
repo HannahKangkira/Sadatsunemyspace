@@ -1,0 +1,13 @@
+.publishdate{
+    font-family: 'comicbold';
+    height: 0px;
+    margin-top: 5px;
+    color: gray;
+}
+
+@media (max-width:368px) {
+    .publishdate{
+        font-size: small;
+    }
+
+}

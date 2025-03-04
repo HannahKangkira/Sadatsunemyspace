@@ -1,0 +1,21 @@
+.App {
+  text-align: center;
+}
+
+body{
+  background-color:rgba(253, 241, 225,0.7)
+}
+
+@font-face {
+  font-family: 'comicbold'; /* 自定义的字体名称 */
+  src: url('/public/newfonts/ComicNeue-Bold.ttf');
+  font-weight: normal; 
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'comicregular'; /* 自定义的字体名称 */
+  src: url('/public/newfonts/ComicNeue-Regular.ttf');
+  font-weight: normal; 
+  font-style: normal;
+}

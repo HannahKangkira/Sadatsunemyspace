@@ -1,0 +1,39 @@
+.nameinside {
+    font-family: 'comicbold';
+    color: white; 
+    text-decoration: none;
+}
+
+.nameinside:hover,
+.nameinside:visited,
+.nameinside:active {
+    color: white; 
+    text-decoration: none; 
+}
+
+.homebutton{
+    margin-top: -7px;
+    margin-left: auto;
+}
+
+.homeicon{
+    display: none;
+    margin-top: 11px;
+    margin-left: auto;
+    color: rgba(188,71,77 ,1);
+}
+
+@media (max-width:600px) {
+    
+    .nameinside{
+        display: none;
+    }
+
+    .homebutton{
+        display: none;
+    }
+
+    .homeicon{
+        display: inline;
+    }
+}

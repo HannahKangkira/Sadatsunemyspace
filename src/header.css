@@ -1,0 +1,239 @@
+.header{
+    position: absolute;
+    z-index: 1;
+}
+.container1 {
+    display: flex;
+    gap: 4vw;
+    align-items: center;
+    margin-top: 2vh;
+    margin-left: 1vw;
+    height:20vh;
+    width:98vw;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.title2{
+    font-style: italic;
+    font-size: larger;
+    color: black;
+    font-family: 'Times New Roman';
+}
+
+.title1{
+    font-family: 'comicbold';
+    color: black;
+    font-size: x-large;
+}
+
+.titlediv{
+    gap: 3vw;
+}
+
+.subShigure {
+    position: fixed;
+    background-color: rgba(255, 207, 205 ,1);
+    margin-top:-10%; 
+    margin-left:calc((100vw - 375px)/2);
+    height: 60px;
+    width: auto;
+    z-index: 1000;
+}
+
+.imgdiv{
+    height:20vh;
+    width: 20vh;
+}
+
+.titlelink{
+    font-family: 'comicbold';
+    color: 'black'; 
+    text-decoration: none;
+}
+
+@media (max-height: 389.99px){
+    
+    .titlediv{
+        display: flex;
+        gap: 3vw;
+    }
+
+    .title1{
+        font-size:smaller;
+    }
+
+    .title2{
+        font-size: smaller;
+    }
+    
+    .upbutton{
+        visibility: hidden;
+    }
+    .subShigure{
+        margin-top: -30px;
+    }
+}
+
+@media (min-height: 390px) and (max-height:595.99px) {
+    .upbutton{
+        bottom: 8vh;
+    }
+
+    .subShigure{
+        margin-top: -80px;
+    }
+}
+
+@media (min-height: 596px) {
+    
+    .upbutton{
+        bottom: 6vh;
+        left: 79%;
+    }
+}
+
+@media (max-width:319.99px){
+
+    .container1 {
+        position: relative;
+        top: -1vh;
+        margin-left: 1vw;
+        height:16vh;
+    }
+    
+    .imgdiv{
+        height:16vh;
+        width: 16vh;
+    }
+    .title1{
+        font-family: 'comicbold';
+        font-size: small;
+    }
+    
+    .title2{
+        font-size:smaller;
+    }
+    .upbutton{
+        top: -17vh;
+        z-index: 2;
+    }
+}
+
+@media (max-width:355px) {
+    .textshigure{
+        font-size: 88%;
+    }
+}
+
+@media (min-width: 320px) and (max-width:388.99px) {
+    .container1 {
+        position: relative;
+        top: -1vh;
+        margin-left: 1vw;
+        height:16vh;
+    }
+
+    .imgdiv{
+        height:16vh;
+        width: 16vh;
+    }
+
+    .title1{
+        font-family: 'comicbold';
+        font-size: medium;
+    }
+    
+    .title2{
+        font-size: medium;
+    }
+    
+    .titlediv{
+        gap: 3vw;
+    }
+
+    .upbutton{
+        top: -17vh;
+        left: 50%;
+        z-index: 2;
+    }
+    .subShigure{
+        margin-top: -23%;
+        margin-left:calc((100vw - 330px)/2);
+        width: auto;
+    }
+}
+
+@media (max-width: 600px) {
+    .container1{
+        position: relative;
+        margin-top: 2vh;
+
+    }
+    .upbutton{
+        left: 90%;
+        z-index: 2;
+    }
+
+    .subShigure{
+        margin-top: -23%;
+        margin-left:calc((100vw - 330px)/2);
+    }
+    
+}
+
+@media (min-width: 600px) and (max-width: 767.99px) { 
+    .upbutton{
+        left: 90%;
+    }
+    
+
+}
+
+@media (min-width: 768px) and (max-width: 991.99px) { 
+    .upbutton{
+        left: 95%; 
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.99px) { 
+    .upbutton{
+        left: 95%;
+    }
+}
+
+@media (min-width: 1200px){
+
+    .container1 {
+        display: flex;
+        overflow: hidden;
+        gap: 4vw;
+        align-items: center;
+        margin-top: 2vh;
+        margin-left: 1vw;
+        height:18vh;
+        width:98vw;
+        
+    }
+    
+    .imgdiv{
+        height:18vh;
+        width: 18vh;
+    }
+    
+    .titlediv{
+        gap: 3vw;
+    }
+
+    .upbutton{
+        left: 96%;
+    }
+
+    .subShigure {
+        margin-top:-7%; 
+    }
+
+}
+
+    
+  

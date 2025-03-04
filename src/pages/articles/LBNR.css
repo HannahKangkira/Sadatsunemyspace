@@ -1,0 +1,13 @@
+.mapcontainer{
+    margin-top: 2vh;
+    padding: 10px;
+}
+.mappic{
+    width: 100%;
+    height: auto;
+    
+}
+
+.maptitle{
+    font-family: 'comicbold';
+}

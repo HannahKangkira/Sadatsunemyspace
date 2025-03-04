@@ -1,0 +1,10 @@
+.qslpic{
+    margin-left: 7%;
+    width: 40%;
+    height:calc(40% * 1.2)
+}
+
+.qslcontainer{
+    padding-top: 10px;
+    width: auto;
+}

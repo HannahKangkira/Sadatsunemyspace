@@ -1,0 +1,82 @@
+.latestarticles{
+    padding: 2vh;
+}
+.titlenewarticles{
+    font-family: 'comicbold';
+    font-size: large;
+    color: rgba(59,90,155 ,1);
+}
+
+.cards{
+    display: flex;
+    gap: 10px;
+    min-width: 20%;
+}
+
+.cardtitle{
+    font-family: 'comicbold';
+    color: rgba(59,90,155 ,1);
+    font-size: large;
+    margin-top: 0px;
+    
+}
+
+.carddetails{
+    font-family: 'comicbold';
+    color: gray;
+    margin-top: -10px;
+    font-size: larger;
+    
+}
+.newyear{
+    display: flex;
+}
+.carddate{
+    font-family: 'comicregular';
+    color: gray;
+    margin-left: 0%;
+    font-size: larger;
+}
+
+.newyeartitle{
+    font-size: medium;
+    text-align: center;
+    color: rgba(188,71,77 ,1);
+    width: 200px;
+}
+
+@media (max-width:881px) {
+    .newyear{
+        display: inline;
+    }
+}
+
+@media (max-width:900px) {
+    .cards{
+        display: inline;
+    }
+    .card{
+        margin-top: 10px;
+    }
+}
+
+/* 以下用于文章的编写，直接引用对应的类 */
+
+.articletitle{
+    font-family: 'comicbold';
+    font-size: x-large;
+    color: rgba(188,71,77 ,1);
+}
+
+.divideline{
+    background-color:rgba(59,90,155 ,1) ;
+    height: 5px;
+}
+/* 窄屏配置 */
+@media (max-width:368px) {
+
+    /* 所有图片在窄屏下宽度为80% */
+    .pic1{
+        width: 80%;
+    }
+}

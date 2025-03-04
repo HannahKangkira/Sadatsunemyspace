@@ -1,0 +1,10 @@
+.articletitlecontainer{
+    height: 50px;
+    padding: 10px;
+}
+
+@media (max-width:600px) {
+    .articletitlecontainer{
+        height: 10vh;
+    }
+}

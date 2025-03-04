@@ -1,0 +1,26 @@
+.tibetimage{
+    max-width: 750px;
+}
+
+.tibetpicdesc{
+    max-width: 750px;
+    font-family: 'comicregular';
+}
+
+.tibetimagebox{
+    margin-top: 30px;
+    width: fit-content;
+    padding: 15px;
+}
+
+@media (max-width: 754px){
+    .tibetimage{
+        max-width: 99%;
+    }
+}
+
+@media (min-width: 754px) and (max-width:1230px){
+    .tibetimage{
+        max-width: 99%;
+    }
+}

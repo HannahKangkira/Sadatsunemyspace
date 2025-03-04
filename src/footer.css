@@ -1,0 +1,76 @@
+@font-face {
+    font-family: 'fzblack'; 
+    src: url('/public/newfonts/FZSSJW.TTF') format('truetype');
+  }
+.footer{
+    width: 100%;
+    height: 150px;
+    background-color: white;
+    color: white;
+}
+
+.roadsign{
+    background-color: rgba(59,90,155 ,0.75);
+    height: 85px;
+}
+.chinesename{
+    margin-left: 1%;
+    padding-top: 2px;
+    font-family: 'fzblack';
+    font-size: 2.4rem;
+    letter-spacing:2rem;
+}
+
+.englishname{
+    margin-top: -35px;
+    margin-left: -1%;
+}
+
+.statementss{
+    font-family: 'comicregular';
+    background-color: rgba(188,71,77 ,0.8);
+    padding-top: 7px;
+    height: 69px;
+}
+
+@media (max-width: 355px) {
+    .chinesename{
+        font-size: 2rem;
+        margin-left: 7%;
+        letter-spacing:1rem;
+    }
+    .englishname{
+        margin-top: -22px;
+        margin-left: 2%;
+        font-size: 0.9rem;
+    }
+    .statementss{
+        font-size: 0.9rem;
+        height: 120px;
+    }
+}
+
+@media (min-width:355.1px) and (max-width:600px) {
+    .footer{
+        position: relative;
+        margin-top: 5vh;
+        height: 200px;
+    }
+
+    .roadsign{
+        height: 40%;
+    }
+
+    .chinesename{
+        font-size: 2.3rem;
+        margin-left: 7%;
+        letter-spacing:1.5rem;
+    }
+    .englishname{
+        margin-top: -33px;
+        margin-left: 2%;
+    }
+    .statementss{
+        height: 120px;
+    }
+}

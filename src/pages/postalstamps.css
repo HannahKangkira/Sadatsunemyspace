@@ -1,0 +1,77 @@
+.piccontainer{
+    height: 250px;
+    width:150px;
+    align-items: center;
+    justify-content: center;
+    padding:10px
+}
+.stamppic{
+    position: relative;
+    width: 150px;
+    height: 150px;
+}
+
+.nekopara{
+    font-family: 'comicregular';
+}
+
+.stampdescription{
+    font-family: 'comicregular';
+    margin-top: 0px;
+}
+
+.pagina{
+    margin-top: 3vh;
+    margin-left: 0%;
+}
+
+@media (max-width:370px) {
+    .piccontainer{
+        height:210px;
+        width:120px;
+        padding:5px;
+        overflow: visible;
+    }
+    .stamppic{
+        width: 120px;
+        height: 120px;
+    }
+    .stampdescription{
+        font-size: small;
+        margin-top: 0px;
+    }
+    
+}
+
+@media (min-width:370px) and (max-width:399.99px) {
+    .piccontainer{
+        height: 250px;
+        width:140px;
+        padding:5px
+    }
+    .stamppic{
+        position: relative;
+        width: 140px;
+        height: 140px;
+    }
+    
+}
+
+@media (min-width:400px) and (max-width:767.99px) {
+
+    .piccontainer{
+        height: 180px;
+        width:100px;
+        padding:5px;
+        overflow: visible;
+    }
+    .stamppic{
+        width: 100px;
+        height: 100px;
+    }
+    .stampdescription{
+        font-size: small;
+        margin-top: 0px;
+    }
+   
+}

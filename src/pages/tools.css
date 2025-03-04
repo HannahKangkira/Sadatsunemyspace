@@ -1,0 +1,44 @@
+.toolsrow{
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    flex-wrap: wrap;
+
+}
+
+.toolsrow > * {
+    margin-bottom: -80px; /* 调整行间距 */
+}
+
+.toolcard{
+    width: 300px;
+    height: 300px;
+}
+
+@media (min-width:600px) and (max-width:900px) {
+    .toolsrow{
+        display: inline;
+    }
+    
+    .toolcard{
+        width: 100%;
+        
+    }
+
+    .toolsrow > * {
+        margin-bottom: 0vh; /* 调整行间距 */
+    }
+}
+
+@media (max-width:600px) {
+    .toolsrow{
+        display: flex;  /* 使用flex布局 */
+        gap: 50px;  /* 控制间距 */
+        flex-wrap: wrap;
+    }
+    
+    .toolcard{
+        width: 100%;
+    }
+
+}

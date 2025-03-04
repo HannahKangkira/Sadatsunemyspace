@@ -1,0 +1,179 @@
+.hamsolar{
+    position: relative;
+    z-index: 0;
+}
+.panel{
+    margin-top:2vh;
+    height: 18vh;
+    width: 26vw;
+}
+
+.downbutton{
+    height: 6vh;
+}
+
+@media (min-height: 596px) {
+    
+    .downbutton{
+        bottom: 6vh;
+        left: 80%;
+    }
+}
+
+@media (max-height: 389.99px){
+    
+    .hamsolar{
+        display: none;
+    }
+    .panel{
+        display: none;
+    }
+
+    .downbutton{
+        display: none;
+    }
+   
+}
+@media (max-width:388.99px) {
+
+    .description{
+        display: none;
+    }
+
+    .hamsolar{
+        top:0vh;
+        margin-left: -1vw;
+        position: relative;
+        height: 15vh;
+    }
+    .panel{
+        height: 15vh;
+        width: 84vw;
+    }
+    .downbutton{
+        bottom: 6vh;
+        left: 90%;
+        z-index: 0;
+    }
+}
+@media (min-width:389px) and (max-width: 575.99px) {
+    .hamsolar{
+        top:0vh;
+        margin-left: -8vw;
+        position: relative;
+        height: 18vh;
+    }
+
+    .description{
+        display: none;
+    }
+
+    .panel{
+        height: 20vh;
+        width: 86vw;
+    }
+    
+    .downbutton{
+        bottom: 6vh;
+        left: 90%;
+        z-index: 0;
+    }
+    
+}
+
+@media (min-width: 576px) and (max-width: 767.99px) { 
+    .hamsolar{
+        position: relative;
+        margin-top:0vh;
+        margin-left: -4vw;
+        height: 18vh;
+    }
+
+    .description{
+        display: none;
+    }
+    .panel{
+        height: 18vh;
+        width: 86vw;
+    }
+
+    .downbutton{
+        left: 93%;
+        z-index: 0;
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 991.99px) { 
+
+    .hamsolar{
+        position: relative;
+        display: flex;
+        gap: 3vw;
+        top: 0vh;
+        left: 2vw;
+        height: 20vh;
+    }
+
+    .panel{
+        margin-top:2vh;
+        height: 18vh;
+        width: 400px;
+    }
+
+    .downbutton{
+        top: 15vh;
+        left: calc(98vw - 620px);
+        z-index: 0;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.99px) { 
+    .hamsolar{
+        position: relative;
+        display: flex;
+        top:0vh;
+        left: 2vw;
+        gap: 3vw;
+        height: 20vh;
+    }
+
+    .panel{
+        margin-top:2vh;
+        height: 18vh;
+        width: 400px;
+    }
+
+    .downbutton{
+        top: 15vh;
+        left: calc(98vw - 640px);
+        z-index: 0;
+    }
+    
+}
+
+@media (min-width: 1200px){
+
+    .hamsolar{
+        position: relative;
+        display: flex;
+        gap: 3vw;
+        top:0vh;
+        left: 2vw;
+        height: 18vh;
+
+    }
+    .panel{
+        margin-top:2vh;
+        height: 18vh;
+        width: 400px;
+    }
+    .downbutton{
+        top: 14vh;
+        left: calc(96vw - 646px);
+        z-index: 0;
+    }
+}
+
+    
+  

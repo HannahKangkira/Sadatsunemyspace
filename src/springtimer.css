@@ -1,0 +1,66 @@
+.container{
+    background-color: rgba(253, 241, 225,1); 
+    color: rgba(188,71,77 ,1);
+    padding: 20px;
+    border-radius:15px;
+    font-family: 'comicbold';
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 88%;
+    display: flex;
+    gap: 20px;
+}
+
+.countheader{
+    font-size: x-large;
+}
+
+.player{
+    margin-left: auto; 
+    max-width: 350px;
+}
+
+.countdown{
+    font-size: x-large;
+    margin:18px;
+    color: rgba(188,71,77 ,1);
+    white-space: pre-line;
+}
+
+.countfooter{
+    font-size: large;
+    color: rgb(248, 188, 186);
+}
+
+.timebox{
+    text-align: center;
+}
+
+@media (max-width:600px) {
+    .countheader{
+        font-size: 100%;        
+    }
+    
+    .countdown{
+        font-size: large;
+    }
+    
+    .countfooter{
+        font-size: 66%;
+    }
+}
+
+@media (max-width:1200px) {
+
+    .container{
+        display: inline-block;
+        text-align: center;
+        padding-top: 15px;
+        border-radius:15px;
+        margin: 10px auto;
+    }
+
+    .player{
+        margin-top:15px;
+        height: 80px;
+    }
+}

@@ -1,0 +1,188 @@
+.menu{
+    position: relative;
+    margin-left: 1vw;
+    margin-top:5vh;
+    font-family: 'comicbold';
+    width: 195px;
+    z-index: 50;
+}
+
+.menubutton{
+    height:36px;
+    width: 195px;
+    gap: 3vw;
+}
+
+.chinapost{
+    height:25px;
+    width: 25px;
+}
+
+.quakeicon{
+    height:25px;
+    width: 25px;
+}
+
+.itemname {
+    font-family: 'comicbold';
+    color: white; 
+    text-decoration: none;
+}
+
+.itemname:hover,
+.itemname:visited,
+.itemname:active {
+    color: white; 
+    text-decoration: none; 
+}
+
+.statements{
+    position: relative;
+    margin-top: 10px;
+    padding:6px;
+}
+
+.smallscr{
+    font-family: 'comicbold';
+    display: none;
+}
+
+.sensors{
+    background-color: 'white';
+    height:255px;
+    margin-top: 2vh;
+    z-index: -1;
+    margin: 10px;
+    
+}
+
+.menupaper{
+    position: absolute;
+    background-color: rgba(163, 120,121 ,0.7);
+    
+    margin-top: 2vh;
+    color: white;
+    width:98vw;
+}
+.contactinfo{
+    margin: 5px;
+    padding: 5px;
+}
+@media (max-width:356px) {
+    .normalscr{
+        display: none;
+    }
+
+    .smallscr{
+        display:flex;
+    }
+
+    .itemname{
+        font-size: small;
+    }
+
+    .menu{
+        position: static;
+        top: 25vh;
+        width: 98vw;
+    }
+
+    .menubutton{
+        width: 98vw;
+        height: 7vh;
+    }
+
+    .statements{
+        display: none;
+    }
+}
+
+@media (min-width:356px) and (max-width:388.99px){
+    .normalscr{
+        display: none;
+    }
+
+    .smallscr{
+        
+        display:flex;
+    }
+
+    .menu{
+        position: static;
+        top: 25vh;
+        width: 98vw;
+    }
+
+    .menubutton{
+        width: 98vw;
+        height: 7vh;
+    }
+
+    .statements{
+        display: none;
+    }
+}
+
+
+@media (min-width:389px) and (max-width:599.99px) {
+
+    .normalscr{
+        display: none;
+    }
+
+    .smallscr{
+
+        display:flex;
+    }
+
+    .menu{
+        position: static;
+        margin-top: 7vh;
+        width: 98vw;
+    }
+
+    .menubutton{
+        width: 98vw;
+        height: 7vh;
+    }
+
+    .statements{
+        display: none;
+    }
+    
+}
+
+@media (min-width:600px) and (max-width: 767.99px){
+    .menu{
+        margin-top: 7vh;
+        height: 540px;
+        overflow-wrap: anywhere;
+    }
+    .menupaper{
+        width: 100%;
+    }
+    .sensors{
+        margin: 0px;
+        height: 400px;
+        
+    }
+    .contactinfo{
+        display: none;
+    }
+}
+@media (min-width: 768px) { 
+    .menu{
+        height: 540px;
+        overflow: hidden;
+    }
+    .sensors{
+        margin: 0px;
+        height: 400px;
+    }
+    .menupaper{
+        width: 100%;
+    }
+    .contactinfo{
+        display: none;
+    }
+}

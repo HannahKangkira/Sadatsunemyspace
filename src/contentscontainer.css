@@ -1,0 +1,48 @@
+.contentpaper{
+    position: relative;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+@media (max-width:599.99px) {
+    .contentpaper{
+        margin-left: 1%;
+        width: calc(98% - 60px);
+        top: 3vh;
+    }
+}
+
+@media (min-width:600px) and (max-width:767.99px){
+    .contentpaper{
+        margin-left: 230px;
+        width: calc(96vw - 290px);
+    }
+    .takemuchspace{
+        margin-top: -540px;
+        min-height: 540px;
+    }
+}
+
+@media (min-width:768px) and (max-width:1199.99px){
+    .contentpaper{
+        margin-left: 230px;
+        width: calc(98vw - 290px);
+    }
+    .takemuchspace{
+        min-height: 540px;
+        margin-top: -540px;
+    }
+}
+
+@media (min-width:1200px) {
+    .contentpaper{
+        margin-left: 230px;
+        width: calc(96vw - 260px);
+        margin-top: -540px;
+    }
+
+    .takemuchspace{
+        min-height: 550px;
+    }
+}
